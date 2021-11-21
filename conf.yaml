@@ -1,0 +1,13 @@
+data_directory: /content/
+train_data_name: train_data.csv
+valid_data_name: valid_data.csv
+drop_columns: ["path"]
+model_save_directory: /content/
+model_save_name: entity_find
+
+input_max_len: 15
+optimizer: adam
+loss: categorical_crossentropy
+metrics: ["accuracy"]
+tensorboard_log_directory: /content/logs/
+epochs: 150

@@ -1,0 +1,5 @@
+data_directory: /content/
+test_data_name: valid_data.csv
+saved_model_directory: /content/
+saved_model_name: entity_find
+input_max_len: 15
